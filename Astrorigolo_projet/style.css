@@ -1,0 +1,253 @@
+body {
+  background-color: rgb(230, 216, 216);
+}
+
+header,
+footer {
+  background-image: url("./img/astronomy-1850461_1280.jpg");
+  padding: 15px;
+  text-align: center;
+  border-radius: 12px;
+  color: gold;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  width: 97.5%;
+  z-index: 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+  font-size: larger;
+  margin-right: 5%;
+  padding-bottom: 20px;
+}
+
+nav a {
+  background-color: #85858531;
+  backdrop-filter: blur(3px);
+  padding: 10px 7%;
+  border-radius: 12px;
+}
+
+a {
+  text-decoration-line: none;
+  color: #fff;
+}
+
+nav a:hover {
+  background-color: rgba(133, 133, 133, 0.5);
+  transform: scale(1.15);
+}
+
+#menu {
+  display: flex;
+  width: 50px;
+}
+
+#zone_menu {
+  padding: 0px;
+  background-color: transparent;
+}
+
+.page {
+  display: flex;
+  align-items: center;
+}
+
+.page img {
+  width: 40%;
+  margin-left: 170px;
+  margin-top: 20px;
+}
+@media (max-width: 768px) {
+  .page img {
+    margin-left: 10px;
+  }
+}
+
+.texte {
+  justify-content: start;
+  margin-left: 5%;
+  max-width: 35%;
+}
+@media (max-width: 768px) {
+  .texte {
+    max-width: 75%;
+  }
+}
+
+.space {
+  padding: 85px;
+}
+
+#roue {
+  text-align: center;
+}
+
+.bleu {
+  background-color: rgb(117, 145, 146);
+  border: 2px solid #000000;
+  border-radius: 12px;
+  margin: 10px 0px;
+}
+
+.rouge {
+  background-color: rgb(173, 78, 78);
+  border: 2px solid #000000;
+  border-radius: 12px;
+  margin: 10px 0px;
+}
+
+.jaune {
+  background-color: rgb(194, 194, 84);
+  border: 2px solid #000000;
+  margin: 10px 0px;
+  border-radius: 12px;
+}
+
+.gris {
+  background-color: rgb(175, 174, 174);
+  border: 2px solid #000000;
+  margin: 10px 0px;
+  border-radius: 12px;
+}
+
+.vert {
+  background-color: rgb(75, 199, 50);
+  border: 2px solid #000000;
+  margin: 10px 0px;
+  border-radius: 12px;
+}
+
+.vertfonce {
+  background-color: rgb(38, 143, 38);
+  border: 2px solid #000000;
+  margin: 10px 0px;
+  border-radius: 12px;
+}
+
+.maron {
+  background-color: rgb(151, 90, 47);
+  border: 2px solid #000000;
+  margin: 10px 0px;
+  border-radius: 12px;
+}
+
+.bleumarine {
+  background-color: rgb(35, 114, 192);
+  border: 2px solid #000000;
+  margin: 10px 0px;
+  border-radius: 12px;
+}
+
+.blanc {
+  background-color: rgb(203, 218, 224);
+  border: 2px solid #000000;
+  margin: 10px 0px;
+  border-radius: 12px;
+}
+
+.sign-container {
+  margin: 20px auto;
+  text-align: center;
+}
+
+.btn-horoscope {
+  background: linear-gradient(45deg, #2196f3, #e91e63);
+  padding: 10px 20px;
+  border-radius: 12px;
+  border: none;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.phrase-container {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 8px;
+}
+
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: calc(100vh - 200px);
+  margin: auto;
+}
+
+form {
+  width: 95%;
+  max-width: 500px;
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+form input,
+form textarea,
+form select {
+  font-size: 16px;
+}
+
+form label {
+  font-size: 18px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="date"] {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.forgot-password-container {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.forgot-password {
+  color: #2196f3;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.forgot-password:hover {
+  text-decoration: underline;
+}
+
+#conn {
+  margin-bottom: -28px;
+  color: #fff;
+  font-size: 24px;
+  text-align: end;
+}
+
+#cree {
+  padding-left: 30px;
+}
+
+#up {
+  color: rgb(0, 0, 0);
+  padding-top: 50px;
+  padding-left: 200px;
+}
